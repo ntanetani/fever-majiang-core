@@ -60,7 +60,7 @@ suite('Majiang.Util', ()=>{
         test('和了形以外(一対子)', ()=>
             assert.deepEqual(
                 Majiang.Util.hule_mianzi(
-                    Majiang.Shoupai.fromString('m22')),
+                    Majiang.Shoupai.fromString('m2'), 'm2='),
                 []));
         test('和了形以外(国士無双テンパイ)', ()=>
             assert.deepEqual(
